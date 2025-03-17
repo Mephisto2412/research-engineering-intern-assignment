@@ -4,5 +4,4 @@ plotly
 nltk
 wordcloud
 matplotlib
-collections
 ast
