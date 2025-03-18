@@ -12,11 +12,11 @@ This interactive dashboard is designed to analyze and visualize misinformation t
 - **Timeframe Selection** – Choose different time periods for trend analysis.
 - **Keyword Search** – Identify trends for posts containing specific keywords.
 
-### 🔹 Dashboard Insights
+### 🔹 Dashboard Insights by different Tabs
 - **Misinformation Analysis** – Detect potential misinformation patterns using NLP-based techniques.
-- **Subreddit Engagement** – Track post and comment activity across selected subreddits.
-- **Topic Analysis** – Identify dominant discussion themes using topic modeling.
-- **Sentiment Analysis & Trends** – Visualize sentiment shifts over time.
+- **Subreddit Engagement** – Track post and comment activity and top authors across selected subreddits.
+- **Topic Analysis** – Identify dominant discussion themes using topic modeling and Top Named Entities.
+- **Sentiment Analysis & Trends** – Visualize sentiment shifts over time and its distribution by subreddit(s).
 
 ## 🛠 Tech Stack
 - **Frontend:** Streamlit (for interactive UI components)
@@ -32,10 +32,15 @@ This interactive dashboard is designed to analyze and visualize misinformation t
 4. **`dashboard.py`** – The main script that powers the Streamlit dashboard, visualizing all trends.
 
 ## 📸 Screenshots
-![Misinformation Analysis](screenshots/img1.png)
-![Topic Distribution using LDA](screenshots/img6.png)
-![ Most Used Named Entities](screenshots/img7.png)
-![Sentiment Trends Aggregated Weekly](screenshots/img9.png)
+1. Misinformation Trends Analysis by Subreddits ![ ](screenshots/img1.png)
+2. Total Engagement (comments and upvotes) for each Misinformation Label ![ ](screenshots/img2.png)
+3.Total Engagement (comments and upvotes) for each Subreddit ![ ](screenshots/img3.png)
+4.Unique Authors count that participate in each Subreddit ![ ](screenshots/img4.png)
+5. Most Active Users for the selected Subreddit(s) and timeframe ![ ](screenshots/img5.png)
+6. Topic Distribution using LDA for the selected Subreddit(s) and timeframe ![ ](screenshots/img6.png)
+7. Word Cloud for the Most Used Named Entities for the selected Subreddit(s) and timeframe ![ ](screenshots/img7.png)
+8. Sentiment Distribution by Subreddits ![ ](screenshots/img8.png)
+9. Sentiment Trends Aggregated Weekly ![ ](screenshots/img9.png)
 
 ## 🌐 Live Demo
 Access the dashboard here: **[Streamlit Cloud](https://research-engineering-intern-assignment-22bce097-itnu.streamlit.app/)**
